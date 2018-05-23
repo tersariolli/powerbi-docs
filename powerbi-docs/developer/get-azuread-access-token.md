@@ -165,7 +165,7 @@ For this approach, you will use a single *master* account that is a Power BI Pro
 ```
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-// Create a user password cradentials.
+// Create a user password credentials.
 var credential = new UserPasswordCredential(Username, Password);
 
 // Authenticate using created credentials
